@@ -1,26 +1,27 @@
-# Predictive Maintenance Business Case 
-
-**TODO**
-+ Document prerequisites and installation process
-
----
+# Predictive Maintainance Using Machine Learning Readme
 
 ## Introduction
 The general git repository for the case "predictive maintenance" given by Zuyd Universiry Applied Sciences. The project has a total of 4 contributors. The case is developed in [Jupyter Notebook](https://jupyter.org/). 
 
-## Prerequisites
+# 1. Configuration instructions
 + At least Python version. 3.7.2 (see [downloads](https://www.python.org/downloads/) or download 3.7.2. [directly](https://www.python.org/downloads/release/python-372/))
+
+## Anaconda (optional)
++ Anaconda is an environment that sets up a local server where your jupyter notebook is hosted. Is comes with an assortment of usefull librarys pre-installed. (see [downloads](https://www.anaconda.com/products/individual))
 
 ---
 
-# Installations
+# 2. Installations
 
-## 1. Installation and running the source-code
+## Installation and running the source-code
 + Either [install a local version of Jupyter Notebook via Mamba, Conda or Pip](https://jupyter.org/install).
 
 <br>
 
-## 2. Insallation of the IMBLearn module <br>
+## Install Anaconda (optional)
++ If anaconda is used, choose it and its default python version as your interpreter before running the project.
+
+## Insallation of the IMBLearn module <br>
 To make use of the IMBLearn module (which is used for oversampling) it's necessary to install a module called imblearn. To do so, follow the following steps:
 
 1. Open the ipython notebook file in vscode 
@@ -47,3 +48,12 @@ To make use of the IMBLearn module (which is used for oversampling) it's necessa
    <img title="IMBLearn4" alt="Opening a Command prompt terminal" src="img/IMBLearn4.png" width='480'>
 
 <br>
+
+# 3. Operating instructions
+When opening the file, click "Run All". After doing this it is possible to execute specific cells. 
+For more information see [the jupyter notebook docs](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Running%20Code.html)
+
+<br>
+
+# 4. General information
+The github repository can be found via the following link: [click here](https://github.com/Intux404/Predictive_Maintenance)
